@@ -255,13 +255,13 @@ class UploadEbook extends React.Component{
   }
 }
 
-class Viewer extends React.Component{
- /* constructor(props){
+/*class Viewer extends React.Component{
+  constructor(props){
     super(props);
     this.state = {
       bookRecieved: "Yeah"
     }
-  }*/
+  }
   
 const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -275,6 +275,6 @@ const [numPages, setNumPages] = useState(null);
       {this.state.bookRecieved}
       </div>
       );
-}
+}*/
 
 ReactDOM.render(<App/>,document.querySelector("#root"));
