@@ -1,0 +1,43 @@
+body{
+  font-size: 0.9em;
+  font-weight: thin;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: firebrick !important;
+}
+.font-weight-bold{
+  font-weight: bold;
+}
+.lg-1{
+  font-size: 1.4em;
+}
+.lg-1:first-letter{
+  text-decoration: underline;
+}
+.outline-pink{
+  border: 1px solid deeppink;
+}
+.round-sides{
+  border-radius: 50px;
+}
+.text-pink{
+  color: #F2195D;
+}
+.bg-pink{
+  background: deeppink;
+}
+.text-mont{
+  font-family: "Montserrat Alternates";
+}
+.text-kufi{
+  font-family: "Reem Kufi";
+}
+.text-k2d{
+  font-family: K2D;
+}
+.text-jso{
+  font-family: "Julius Sans One";
+}
